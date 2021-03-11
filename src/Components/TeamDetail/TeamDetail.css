@@ -1,0 +1,40 @@
+.bg {
+  background-color: aqua;
+  background-image: url("https://wallpaperaccess.com/full/2514318.jpg");
+  width: 100%;
+  position: absolute;
+  height: 400px;
+}
+
+.team-data {
+  margin-top: 450px;
+  border: 2px solid blue;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.team-detail {
+}
+
+.team-image img {
+  width: 450px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+.row {
+  position: relative;
+}
+.logo-des {
+  text-align: center;
+}
+
+.social-fonts {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}

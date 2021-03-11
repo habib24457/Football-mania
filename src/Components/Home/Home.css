@@ -1,0 +1,19 @@
+.team-design {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 320px;
+}
+
+.bg {
+  background-color: aqua;
+  background-image: url("https://wallpaperaccess.com/full/2514318.jpg");
+  width: 100%;
+  height: 400px;
+}
+
+.site-title {
+  text-align: center;
+  color: rgb(65, 49, 80);
+  margin-top: 60px;
+}
