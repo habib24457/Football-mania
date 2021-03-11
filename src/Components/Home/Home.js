@@ -1,17 +1,11 @@
 import React from 'react';
 import {useState,useEffect} from 'react';
 import './Home.css';
-import TeamDetail from '../TeamDetail/TeamDetail';
-import {Card,Button,Jumbotron} from 'react-bootstrap';
+import {Card,Button} from 'react-bootstrap';
 
 
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Home = () => {
     

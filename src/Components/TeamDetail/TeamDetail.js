@@ -2,11 +2,10 @@ import React from 'react';
 import './TeamDetail.css';
 import {useParams} from 'react-router-dom';
 import {useState,useEffect} from 'react';
-import {Card,Button} from 'react-bootstrap';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFacebook,faInstagram,faYoutube} from '@fortawesome/free-brands-svg-icons';
-import  {faCoffee} from '@fortawesome/free-solid-svg-icons';
 
 
 const TeamDetail = () => {
@@ -50,18 +49,18 @@ const TeamDetail = () => {
 
                     <div className="row social-fonts">
 
-                    <a href="#"
+                    <a href="https://www.facebook.com/"
                         className="facebook social">
                  <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
 
-                   <a href="#"
+                   <a href="https://www.youtube.com/"
                     className="youtube social">
                      <FontAwesomeIcon icon={faYoutube} size="2x" />
                     </a>
                     
 
-                    <a href="#"
+                    <a href="https://www.instagram.com/"
                     className="instagram social">
                      <FontAwesomeIcon icon={faInstagram} size="2x" />
                     </a>

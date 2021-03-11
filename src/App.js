@@ -1,12 +1,10 @@
 import './App.css';
-import {useState,useEffect} from 'react';
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import TeamDetail from './Components/TeamDetail/TeamDetail';
 
